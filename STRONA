@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html>
+<html lang="pl">
+
+<head>
+<meta charste="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Szkolne Koło Wolontariatu</title>
+<link rel="stylesheet" href="styl.css" type="text/css" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</head>
+
+<header>
+<img id="logo" src="logo.png" alt="logo szkoły">
+<div class="info">
+<a href="dokument/regulamin.pdf" target="_blank"><!--Adres strony docelowej-->Regulamin</a>
+|
+<a href="dokument/Kontakt.pdf" target="_blank"><!--Adres strony docelowej-->Kontakt</a>
+</div>
+<h1>Szkolne Koło Wolontariatu</h1>
+<h2>im. Janusza Korczaka</h2>
+<div class="koniec"></div>
+</header>
+
+<body>
+
+<span style="font-size: x-large">
+<center>
+<div class"row">
+<br>
+<span style="font-size: smal"><img id="Uśmiechnięte dzieci" src="dzieci.jpg" alt="Uśmiechnięte dzieci"></span>
+</div>
+<br>
+<div class"row" id="cytat">
+"Kiedy się śmieje dziecko, śmieje się cały świat." Janusz Korczak
+</div>
+
+<div class="karta">
+<div class="info">Pomoc dzieciom</div>
+<p>Sobotnia wycieczka[...]<p>
+<p>Wramach wolontatiatu[...] <span class="przycisk">
+</div>
+</center>
+</span>
+
+<footer>
+
+<div id="kontakt">
+<br>Dane kontaktowe:<br>
+<strong>Szkolne Koło Wolontariatu<br></strong>
+<strong>im. Janusza Korczaka</strong><br>
+Przedowniczący: XXX XXX - przewodniczacy@szkola.pl<br>
+Opiekun: XXX XXX - opiekun@ szkola.pl<br>
+</div>
+<div>
+Adres szkoły:<br>
+<strong> IV Liceum Ogólnokształcące</strong><br>
+</div>
+<div class="koniec"></div>
+
+</footer>
+
+</body>
+
+</html>
+
+
+header { 
+color: #313daf; 
+font-family: 'Roboto Condensed', sans-serif; 
+margin: 1em; 
+padding: 1em; 
+letter-spacing: 0.1em; 
+border: 3px solid #313daf; 
+border-radius: 15px;
+} 
+
+
+
+footer { 
+background:  #cccccc; 
+margin: 1em; 
+padding: 1em; 
+font-size: 0.8em; 
+line-height: 1.5em; 
+} 
+
+
+<div class=”karta"> 
+<div class="info">Zostań wolontariuszem</div> 
+<h2>Najbliższe spotkanie</h2> 
+<p>Jeśli jesteś... <span class="przycisk">   >>> </span></p> 
+</div> 
+
+
+.karta { 
+border: 1px solid #cccccc; 
+margin-bottom: 1em; 
+}
+
+ 
+
+.info {  
+float: right;  
+padding: 0.5em;  
+margin: 0em;  
+background: #313daf;  
+color: #ffffff; 
+} 
+
+ 
+
+.przycisk { 
+border: 1px solid #313daf;
+font-size: 0.8em;
+padding: 0.2em;
+border-radius: 5px;
+background: #eeeeee;
+} 
+
+ 
+
+ 
+<div class="row">
+<img src=”grafika/dzieci.jpg” alt="Uśmiechnięte dzieci”>
+</div> 
+
+  
+
+.row img {
+width: 100%;
+height: auto;
+} 
+
+ 
+ 
+
+@media (min-width: 992px) {
+.col-lg-4 {width: 33.33%;)
+.col-lg-6 {width: 50%;)
+} 
+
+@media (min-width: 768px) and (max-width: 991px) { 
+.col-md-6 {width: 50%;} 
+.col-md-12 {width: 100%;} 
+
+} 
+
+@media (max-width: 767px) {
+.col-sm-12 {width: 100%;
+} 
+
+ 
+
+<div class=”col-lg-4 col-md-6 col-sm-12">
+<div class=”karta”>
+<div class=”info”>Pomoc dzieciom</div>
+<h2>Sobotnia wycieczka<h2>
+<p>W ramach... </p>
+</div>
+</div> 
+
+ 
+<div class=”col-lg-4 col-md-6 col-sm-12">
+<div class=”karta">
+<div class="info">Wolontariusze w akcji!</div>
+<h2>Zbieramy zabawki</h2>
+<p>Ekipa... <p>
+</div>
+</div> 
+
+ 
+
+<div class=”col-lg-4 col-md-12 col-sm-12">
+<div class="karta">
+<div class=”info”>Zostań wolontariuszem</div>
+<p>Najbliższe spotkanie</h2>
+<p>Jeśli... </p>
+</div>
+</div>
+<div class="koniec"></div>
